@@ -22,6 +22,10 @@
 		4274EE5326063CAA0078ECF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4274EE5226063CAA0078ECF4 /* Preview Assets.xcassets */; };
 		4274EE5526063CAA0078ECF4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4274EE5426063CAA0078ECF4 /* Persistence.swift */; };
 		4274EE6726063DC60078ECF4 /* SlipboxApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4274EE0826063AE40078ECF4 /* SlipboxApp.xcdatamodeld */; };
+		4274EE822606F2B20078ECF4 /* Note+helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4274EE812606F2B20078ECF4 /* Note+helper.swift */; };
+		4274EE882606F41A0078ECF4 /* NSPredicate+helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4274EE872606F41A0078ECF4 /* NSPredicate+helper.swift */; };
+		4274EE8D2606F47C0078ECF4 /* NSPredicate+helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4274EE872606F41A0078ECF4 /* NSPredicate+helper.swift */; };
+		4274EE922606F8280078ECF4 /* Note+helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4274EE812606F2B20078ECF4 /* Note+helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +70,8 @@
 		4274EE5426063CAA0078ECF4 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		4274EE5926063CAA0078ECF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4274EE6126063CF20078ECF4 /* SlipboxPad.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SlipboxPad.entitlements; sourceTree = "<group>"; };
+		4274EE812606F2B20078ECF4 /* Note+helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+helper.swift"; sourceTree = "<group>"; };
+		4274EE872606F41A0078ECF4 /* NSPredicate+helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSPredicate+helper.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,9 +204,19 @@
 		4274EE6226063D7C0078ECF4 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				4274EE802606F2960078ECF4 /* model */,
 				4274EE0826063AE40078ECF4 /* SlipboxApp.xcdatamodeld */,
+				4274EE872606F41A0078ECF4 /* NSPredicate+helper.swift */,
 			);
 			path = Shared;
+			sourceTree = "<group>";
+		};
+		4274EE802606F2960078ECF4 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				4274EE812606F2B20078ECF4 /* Note+helper.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,7 +379,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4274EE882606F41A0078ECF4 /* NSPredicate+helper.swift in Sources */,
 				4274EE0A26063AE40078ECF4 /* SlipboxApp.xcdatamodeld in Sources */,
+				4274EE822606F2B20078ECF4 /* Note+helper.swift in Sources */,
 				4274EE0726063AE40078ECF4 /* ContentView.swift in Sources */,
 				4274EE0526063AE40078ECF4 /* AppDelegate.swift in Sources */,
 			);
@@ -389,6 +407,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4274EE8D2606F47C0078ECF4 /* NSPredicate+helper.swift in Sources */,
+				4274EE922606F8280078ECF4 /* Note+helper.swift in Sources */,
 				4274EE5526063CAA0078ECF4 /* Persistence.swift in Sources */,
 				4274EE6726063DC60078ECF4 /* SlipboxApp.xcdatamodeld in Sources */,
 				4274EE4E26063CA70078ECF4 /* ContentView.swift in Sources */,
@@ -544,10 +564,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SlipboxApp/SlipboxApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"SlipboxApp/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 24V7JB28L6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SlipboxApp/Info.plist;
@@ -568,10 +589,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SlipboxApp/SlipboxApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"SlipboxApp/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 24V7JB28L6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SlipboxApp/Info.plist;
