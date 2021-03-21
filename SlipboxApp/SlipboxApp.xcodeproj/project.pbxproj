@@ -26,6 +26,7 @@
 		4274EE882606F41A0078ECF4 /* NSPredicate+helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4274EE872606F41A0078ECF4 /* NSPredicate+helper.swift */; };
 		4274EE8D2606F47C0078ECF4 /* NSPredicate+helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4274EE872606F41A0078ECF4 /* NSPredicate+helper.swift */; };
 		4274EE922606F8280078ECF4 /* Note+helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4274EE812606F2B20078ECF4 /* Note+helper.swift */; };
+		4274EE97260703C50078ECF4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4274EE5426063CAA0078ECF4 /* Persistence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -186,7 +187,6 @@
 				4274EE4B26063CA70078ECF4 /* SlipboxPadApp.swift */,
 				4274EE4D26063CA70078ECF4 /* ContentView.swift */,
 				4274EE4F26063CAA0078ECF4 /* Assets.xcassets */,
-				4274EE5426063CAA0078ECF4 /* Persistence.swift */,
 				4274EE5926063CAA0078ECF4 /* Info.plist */,
 				4274EE5126063CAA0078ECF4 /* Preview Content */,
 			);
@@ -204,6 +204,7 @@
 		4274EE6226063D7C0078ECF4 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				4274EE5426063CAA0078ECF4 /* Persistence.swift */,
 				4274EE802606F2960078ECF4 /* model */,
 				4274EE0826063AE40078ECF4 /* SlipboxApp.xcdatamodeld */,
 				4274EE872606F41A0078ECF4 /* NSPredicate+helper.swift */,
@@ -382,6 +383,7 @@
 				4274EE882606F41A0078ECF4 /* NSPredicate+helper.swift in Sources */,
 				4274EE0A26063AE40078ECF4 /* SlipboxApp.xcdatamodeld in Sources */,
 				4274EE822606F2B20078ECF4 /* Note+helper.swift in Sources */,
+				4274EE97260703C50078ECF4 /* Persistence.swift in Sources */,
 				4274EE0726063AE40078ECF4 /* ContentView.swift in Sources */,
 				4274EE0526063AE40078ECF4 /* AppDelegate.swift in Sources */,
 			);
