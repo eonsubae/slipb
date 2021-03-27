@@ -49,4 +49,9 @@ struct PersistenceController {
         }
         return result
     }()
+    
+    //MARK: - unit test
+    static var empty: PersistenceController = {
+        return PersistenceController(inMemory: true)
+    }
 }
