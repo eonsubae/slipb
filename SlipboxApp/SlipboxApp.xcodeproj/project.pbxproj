@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		425416A12613585200C69E51 /* NotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425416A02613585200C69E51 /* NotesTests.swift */; };
 		4274EE0526063AE40078ECF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4274EE0426063AE40078ECF4 /* AppDelegate.swift */; };
 		4274EE0726063AE40078ECF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4274EE0626063AE40078ECF4 /* ContentView.swift */; };
 		4274EE0A26063AE40078ECF4 /* SlipboxApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4274EE0826063AE40078ECF4 /* SlipboxApp.xcdatamodeld */; };
@@ -47,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		425416A02613585200C69E51 /* NotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTests.swift; sourceTree = "<group>"; };
 		4274EE0126063AE40078ECF4 /* SlipboxApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlipboxApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4274EE0426063AE40078ECF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4274EE0626063AE40078ECF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				4274EE1D26063AE80078ECF4 /* SlipboxAppTests.swift */,
+				425416A02613585200C69E51 /* NotesTests.swift */,
 				4274EE1F26063AE80078ECF4 /* Info.plist */,
 			);
 			path = SlipboxAppTests;
@@ -394,6 +397,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4274EE1E26063AE80078ECF4 /* SlipboxAppTests.swift in Sources */,
+				425416A12613585200C69E51 /* NotesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +500,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -551,6 +556,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -617,7 +623,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 6F24R48AYW;
+				DEVELOPMENT_TEAM = 24V7JB28L6;
 				INFOPLIST_FILE = SlipboxAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -639,7 +645,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 6F24R48AYW;
+				DEVELOPMENT_TEAM = 24V7JB28L6;
 				INFOPLIST_FILE = SlipboxAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -660,7 +666,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 6F24R48AYW;
+				DEVELOPMENT_TEAM = 24V7JB28L6;
 				INFOPLIST_FILE = SlipboxAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -680,7 +686,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 6F24R48AYW;
+				DEVELOPMENT_TEAM = 24V7JB28L6;
 				INFOPLIST_FILE = SlipboxAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -702,7 +708,7 @@
 				CODE_SIGN_ENTITLEMENTS = SlipboxPad/SlipboxPad.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SlipboxPad/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 24V7JB28L6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SlipboxPad/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
@@ -726,7 +732,7 @@
 				CODE_SIGN_ENTITLEMENTS = SlipboxPad/SlipboxPad.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SlipboxPad/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 24V7JB28L6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SlipboxPad/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
