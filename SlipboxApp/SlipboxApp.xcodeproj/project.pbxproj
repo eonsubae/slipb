@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42128EB7261612AB00960E60 /* UnitTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42128EB6261612AB00960E60 /* UnitTestHelpers.swift */; };
+		42128EB8261612AB00960E60 /* UnitTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42128EB6261612AB00960E60 /* UnitTestHelpers.swift */; };
 		425416A12613585200C69E51 /* NotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425416A02613585200C69E51 /* NotesTests.swift */; };
 		4274EE0526063AE40078ECF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4274EE0426063AE40078ECF4 /* AppDelegate.swift */; };
 		4274EE0726063AE40078ECF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4274EE0626063AE40078ECF4 /* ContentView.swift */; };
@@ -48,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42128EB6261612AB00960E60 /* UnitTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestHelpers.swift; sourceTree = "<group>"; };
 		425416A02613585200C69E51 /* NotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTests.swift; sourceTree = "<group>"; };
 		4274EE0126063AE40078ECF4 /* SlipboxApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlipboxApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4274EE0426063AE40078ECF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -211,6 +214,7 @@
 				4274EE802606F2960078ECF4 /* model */,
 				4274EE0826063AE40078ECF4 /* SlipboxApp.xcdatamodeld */,
 				4274EE872606F41A0078ECF4 /* NSPredicate+helper.swift */,
+				42128EB6261612AB00960E60 /* UnitTestHelpers.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -387,6 +391,7 @@
 				4274EE0A26063AE40078ECF4 /* SlipboxApp.xcdatamodeld in Sources */,
 				4274EE822606F2B20078ECF4 /* Note+helper.swift in Sources */,
 				4274EE97260703C50078ECF4 /* Persistence.swift in Sources */,
+				42128EB7261612AB00960E60 /* UnitTestHelpers.swift in Sources */,
 				4274EE0726063AE40078ECF4 /* ContentView.swift in Sources */,
 				4274EE0526063AE40078ECF4 /* AppDelegate.swift in Sources */,
 			);
@@ -417,6 +422,7 @@
 				4274EE922606F8280078ECF4 /* Note+helper.swift in Sources */,
 				4274EE5526063CAA0078ECF4 /* Persistence.swift in Sources */,
 				4274EE6726063DC60078ECF4 /* SlipboxApp.xcdatamodeld in Sources */,
+				42128EB8261612AB00960E60 /* UnitTestHelpers.swift in Sources */,
 				4274EE4E26063CA70078ECF4 /* ContentView.swift in Sources */,
 				4274EE4C26063CA70078ECF4 /* SlipboxPadApp.swift in Sources */,
 			);
