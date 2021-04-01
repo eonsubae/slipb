@@ -72,4 +72,18 @@ class NotesTests: XCTestCase {
             XCTAssertNil(error, "saving not complete")
         }
     }
+    
+    func testDeleteNote() {
+        let context = controller.container.viewContext
+        let note = Note(title: "note to delete", context: context)
+        
+        Note.delete(note: note)
+        
+        let request = Note.fetch(NSPredicate.all)
+        let fetchedNotes = try? context.fetch(request)
+        
+        XCTAssertTrue(fetchedNotes!.count == 0, "core data fetch shuold be empty")
+        
+        XCTAssertFalse(fetchedNotes!.contains(note), "fetched notes should not contain my deleted note")
+    }
 }
