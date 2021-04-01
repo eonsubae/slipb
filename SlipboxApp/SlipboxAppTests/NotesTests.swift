@@ -55,4 +55,21 @@ class NotesTests: XCTestCase {
         
         XCTAssertTrue(fetchedNotes?.first == note, "new note should be fetched")
     }
+    
+    func testSave() {
+        // asynchronous testing
+        
+        expectation(forNotification: .NSManagedObjectContextDidSave, object: controller.container.viewContext) { _ in
+            return true
+        }
+        
+        controller.container.viewContext.perform {
+            let note = Note(title: "title", context: self.controller.container.viewContext)
+            XCTAssertNotNil(note, "note should be there")
+        }
+        
+        waitForExpectations(timeout: 2.0) { (error) in
+            XCTAssertNil(error, "saving not complete")
+        }
+    }
 }
